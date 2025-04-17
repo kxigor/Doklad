@@ -1,0 +1,7 @@
+https://www.boost.org/doc/libs/master/libs/leaf/doc/html/index.html
+
+https://www.boost.org/doc/libs/1_87_0/doc/html/process.html
+https://www.boost.org/doc/libs/1_87_0/doc/html/doxygen/classboost_1_1process_1_1v1_1_1basic__pipe.html
+https://www.boost.org/doc/libs/1_87_0/doc/html/doxygen/structboost_1_1process_1_1v1_1_1basic__pipebuf.html
+https://www.boost.org/doc/libs/1_87_0/doc/html/doxygen/classboost_1_1process_1_1v1_1_1basic__pstream.html
+
