@@ -25,6 +25,8 @@ int main() {
   } catch (const std::exception& e) {
     std::cout << v.valueless_by_exception() << std::endl;
   }
+
   std::cout << v2::get<0>(v) << std::endl;
+  
   return 0;
 }

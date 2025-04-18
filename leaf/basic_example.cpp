@@ -13,7 +13,7 @@ leaf::result<int> failing_func(int x) {
     return 228;
   }
   return leaf::new_error(MyError{
-      0xDEAD, "Everything's broken, ouuuuuuuuuuuuuu nouuuuuuuuuuuuu ;("});
+      0xDEAD, "Everything's broken"});
 }
 
 int main() {

@@ -31,7 +31,7 @@ leaf::result<void> write_file(const char* filename, const char* text) {
 
   auto text_size = strlen(text);
 
-  ::close(fd);
+  // ::close(fd);
 
   {
     auto error_ctx = leaf::on_error(FileWriteError{text_size});
@@ -48,7 +48,7 @@ leaf::result<void> write_file(const char* filename, const char* text) {
 }
 
 int main() {
-  auto l = leaf::try_handle_some(
+  return leaf::try_handle_all(
       []() -> leaf::result<int> {
         BOOST_LEAF_CHECK(write_file("test.txt", "bibibibbobobob"));
         return 0;
